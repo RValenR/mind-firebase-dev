@@ -8,6 +8,8 @@ import { MembersComponent } from './modules/members/members.component';
 import {MenubarModule} from 'primeng/menubar';
 import {ButtonModule} from 'primeng/button';
 import {InputTextModule} from 'primeng/inputtext';
+import {DockModule} from 'primeng/dock';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {InputTextModule} from 'primeng/inputtext';
     AppRoutingModule,
     MenubarModule,
     ButtonModule,
-    InputTextModule
+    InputTextModule,
+    DockModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
